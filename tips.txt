@@ -1,0 +1,9 @@
+1) Play a game of Sokoban, get a feel for what the test cases might be.
+
+2) Manhattan works as a heuristic, so use that as a starting point.
+
+3) Find deadlock states, which is when there is no way the game can be won.
+
+4) Determine what you would do if you were the AI. For example, would you prioritize going for the largest snowball that isn't already on the goal?
+
+5) Make your code more efficient - make it less computational-heavy, return early if you reach a deadlock, etc.
